@@ -1,1 +1,0 @@
-# opencv-sudoku-solver
