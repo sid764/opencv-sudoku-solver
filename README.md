@@ -42,18 +42,14 @@ Summary of the model:
 
 <img src="https://user-images.githubusercontent.com/60272094/125906446-676997ae-c4e3-4a83-9d52-c4aa8f774a72.JPG" width="400" height="400">
 
+Validation accuracy: 99.45 %.
+Test accuracy: 99.26 %.
 
+### Digit extraction from sudoku grid ###
 
+We split the warped image into 9 rows and 9 columns. In each splitted image, there will be some part of the border and so it will get misclassified as 7 or 1 mostly. So we crop the image and remove the outer border. To determine if the cell contains a digit, we make a count of number of pixels having lesser pixel value than a threshold. If the number of such pixels are lower than a specified threshold, then we consider the cell as empty. Else pass the image to the model for prediction. This was the most messy part and it's not perfect still now. 
 
+Next, puzzle is solved using backtracking algorithm and is stored in a 2D array.
+Using putText() function in opencv, digits are printed on to empty cells and finally the solved grid is :)
 
-
-
-
-
-
-
-
-
-
-
-
+<img src="https://user-images.githubusercontent.com/60272094/125908349-20d32c63-3d3f-42ff-adc3-309164091bd1.JPG" width="400" height="350">
