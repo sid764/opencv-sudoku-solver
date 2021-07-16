@@ -3,14 +3,14 @@
 We can solve a vaid sudoku puzzle using backtracking algorithm. But wouldn't it be cool if we could take a pic of the puzzle, solve it and show the solved grid? 
 We use the opencv library to find the sudoku grid and capture only the essential part within the image. TensorFlow keras API can be used to train the model for recognizing digits.
 
-Broad steps involved                                    |
---------------                                          |
-1.  Loading the input image                             |
-2.  Localize the sudoku grid                            |
-3.  Localize each of 81 cells in the grid               |
-4.  Determine if cell is blank, else predict the digit  |
-5.  Solve the grid using backtracking algorithm         |
-6.  Display solved puzzle                               |
+Broad steps involved                                |
+--------------                                      |
+Loading the input image                             |
+Localize the sudoku grid                            |
+Localize each of 81 cells in the grid               |
+Determine if cell is blank, else predict the digit  |
+Solve the grid using backtracking algorithm         |
+Display solved puzzle                               |
 
 
 ## Sample input ##
@@ -39,7 +39,8 @@ The 4-sided contour with largest area will be considered as the sudoku grid. We 
 I did not use the MNIST dataset for digit classification because it contains handwritten digits which are way different from printed digits we see in a sudoku puzzle. The dataset is from http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/. Keras Sequential model was used for training. Data augmentation was also applied to training set images. 
 
 Summary of the model:
-![modelsum](https://user-images.githubusercontent.com/60272094/125906446-676997ae-c4e3-4a83-9d52-c4aa8f774a72.JPG)
+
+<img src="https://user-images.githubusercontent.com/60272094/125906446-676997ae-c4e3-4a83-9d52-c4aa8f774a72.JPG", width="500" height="800">
 
 
 
