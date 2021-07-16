@@ -15,7 +15,7 @@ Broad steps involved                                    |
 
 ## Sample input ##
 
-<img src="https://user-images.githubusercontent.com/60272094/125901417-e59c881d-3210-4426-9b79-a49017806372.JPG" width="600" height="400">
+<img src="https://user-images.githubusercontent.com/60272094/125901417-e59c881d-3210-4426-9b79-a49017806372.JPG" width="400" height="350">
 
 
 ### Preprocessing input image ###
