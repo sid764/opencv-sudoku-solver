@@ -40,7 +40,7 @@ I did not use the MNIST dataset for digit classification because it contains han
 
 Summary of the model:
 
-<img src="https://user-images.githubusercontent.com/60272094/125906446-676997ae-c4e3-4a83-9d52-c4aa8f774a72.JPG", width="500" height="800">
+<img src="https://user-images.githubusercontent.com/60272094/125906446-676997ae-c4e3-4a83-9d52-c4aa8f774a72.JPG" width="500" height="800">
 
 
 
