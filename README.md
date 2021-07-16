@@ -52,4 +52,6 @@ We split the warped image into 9 rows and 9 columns. In each splitted image, the
 Next, puzzle is solved using backtracking algorithm and is stored in a 2D array.
 Using putText() function in opencv, digits are printed on to empty cells and finally the solved grid is :)
 
-<img src="https://user-images.githubusercontent.com/60272094/125908349-20d32c63-3d3f-42ff-adc3-309164091bd1.JPG" width="400" height="350">
+<img src="https://user-images.githubusercontent.com/60272094/125908524-52b9c099-3ca5-4da7-86d6-7d4a76294498.JPG" width="400" height="350">
+
+
